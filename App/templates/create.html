@@ -1,0 +1,33 @@
+
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+       <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    </head>
+
+
+<body>
+
+
+
+    <h1>New host</h1>
+<form action="#" method="POST" >
+   {% csrf_token %}
+    <div class="currency">
+       <select class="form-control" id="currency">
+        <option value="UAH">UAH</option>
+           </select>
+   <input id="period1" type="text" class="form-control" placeholder="Please" value=""
+          name='period1'>
+   <input id="period2" type="text"  class="form-control"  placeholder="Please" value=""
+          name='period2'>
+   <input type="submit" value="Submit">
+</form>
+
+</body>
+
+</html>
